@@ -78,7 +78,7 @@ while(numero !== 0){
 }
 alert(soma)*/
 
-let array = [11, 15, 18, 14, 12, 13]
+/*let array = [11, 15, 18, 14, 12, 13]
 let maiorValor = 0
 
 for (let i = 0; i < 6; i++){
@@ -89,4 +89,12 @@ for (let i = 0; i < 6; i++){
  
  }
  
- alert(maiorValor)
+ alert(maiorValor)*/
+
+ const palavra = ["oi", "sumido", "tudo","bem?", "Saudades"]
+ let frase = ""
+
+ for (let indices of  palavra){
+    frase = frase + indices + " "
+ }
+ alert(frase)

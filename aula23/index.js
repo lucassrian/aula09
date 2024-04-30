@@ -45,7 +45,7 @@ if(num1 <= num2){
     alert("O primeiro número é menor que o segundo número")
 }*/
 
-let primeiroPokemon = prompt("Escolha u dos três pokemons")
+/*let primeiroPokemon = prompt("Escolha u dos três pokemons")
 switch(primeiroPokemon){
     case 'Bulbasaur':
         console.log('Plata e Veneno')
@@ -59,4 +59,24 @@ switch(primeiroPokemon){
     default:
         console.log('Só os iniciais -_-')
         break
-}
+}*/
+
+/*let con1 = prompt("Você terminou o ensino médioi?")
+let con2 = prompt("Você tem mais de 18 anos?")
+let con3 = prompt("Você está cuesando  outra faculdade?")
+if ((con1 == "sim") && (con2 == "sim") && (con3 == "nao")){
+    alert(`Você pode cursar a fuculdade >_<`)
+}else{
+    alert(`Você não pode fazer faculdade <>_<>`)
+}*/
+
+ /*let idade = prompt("Qual a sua idade?")
+
+ if(idade >= 18){
+    alert(`Já pode fazer a carteira!!`)
+ }else{
+    alert(`Vai virar gente -_-`)
+ }*/
+
+
+
