@@ -66,7 +66,13 @@ console.log(valor)*/
 
 // console.log(numeros)
 
-function imprimirOlaMundo(){
+/*function imprimir OlaMundo(){
     console.log("Olá mundo!!")
 }
-imprimirOlaMundo()
+imprimirOlaMundo()*/
+
+function imprimeNome(nome){
+    alert(`Olá ${nome}`)
+}
+let nomeUser = ""
+nomeUser = prompt("")
