@@ -25,12 +25,12 @@ function imprimirMenu(){
      
 }*/
 
-const professor = {
+/*const professor = {
     nome: "josé",
     idade: 27,
     email: 'jose@gmail.com'
 }
-console.log(professor.idade)
+console.log(professor.email)
 
 /*const professor = {
     nome: "josé",
@@ -39,19 +39,33 @@ console.log(professor.idade)
 }
 console.log(professor["email"])*/
 
-/*const filme = {
+const filme = {
     filme: "Close",
     direção: "Lukas Dhont",
     lançamento: "2 de março de 2023 (Brasil)",
-    elenco: "Eden Dambrine, Gustav De Waele, Émilie Dequenne, Léa Drucker, Kevin Janssens, Marc Weiss, Igor van Dessel, Léon Bataille",
-    visto: "já assisti",
+    elenco: ["Eden Dambrine", "Gustav De Waele", "Émilie Dequenne", "Léa Drucker", "Kevin Janssens", "Marc Weiss", "Igor van Dessel", "Léon Bataille",],
+    jaAssisti: "já assisti",
 }
 
 console.log(filme.filme)
 console.log(filme.direção)
 console.log(filme.lançamento)
 console.log(filme.elenco)
-console.log(filme.visto)*/
+console.log(filme.visto)
+let mensagem = ""
+for(let i = 0; i <= 7; i++){
+    mensagem = mensagem + filme.elenco[i] + "\n"
+
+}
+console.log(mensagem)
+
+filme.personagem = ["Léo", "Rémi", "Sophie", "Nathalie", "Peter", "Yves", "Charlie", "Baptiste"]
+
+let personagem = ""
+for(let i = 0; i <= 7; i++){
+    personagem = personagem + filme.personagem[i] + " = " + filme.personagem[i] + "\n"
+}
+console.log(personagem)
 
 /*const pessoa = {
     nome: "Carlos",
@@ -60,3 +74,4 @@ console.log(filme.visto)*/
 
 }
 console.log("O nome da pessoa é " + pessoa.nome + " ele tem " + pessoa.idade + " anos e gosta muito de " + pessoa.genMusical)*/
+
