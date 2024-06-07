@@ -16,7 +16,6 @@ function imprimirMenu(){
 
     
 }
-imprimirMenu()
 
 function primeiraOpcao(){
     let nome = prompt("Digite o seu nome:")
@@ -31,24 +30,9 @@ function primeiraOpcao(){
 
 }
 
-function segundaOpcao(){
-    let = ""
-     mensagem += "///// Listagem de Doarores /////"
-    prompt(mensagem)
-}
+
+imprimirMenu()
+primeiraOpcao()
+segunda
 
 
-
-
-function main{
-    swith(listarDoadores){
-        case 1:
-            primeiraOpcao()
-            break
-        case 2:
-            segundaOpcao()
-            break
-    }
-}
-
-main()
